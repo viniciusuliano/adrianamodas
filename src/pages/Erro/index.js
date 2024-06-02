@@ -1,8 +1,10 @@
+import './index.css'
+import {Link} from 'react-router-dom'
 function Erro(){
     return(
-        <div>
-            <h1>ERRO 404 - PÁGINA NÃO ENCONTRADA</h1>
-        </div>
+        <div className='erro'>
+            <h1>404 NOT FOUND</h1>
+            <Link to={'/'}>Retorne a Página principal</Link>        </div>
     )
 }
 

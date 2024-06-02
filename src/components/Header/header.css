@@ -23,6 +23,8 @@ header{
 
 }
 
+
+
 .logo h1{
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
@@ -41,17 +43,37 @@ header .logo-img{
     gap: 30px;
 }
 
+.rotas strong{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 12px;
+}
+
 
 .rotas .icone-home{
     width: 45px;
 }
 
+.rotas .icon-watch{
+    width: 35px;
+}
+
+.rotas .iconinstagram{
+    width: 35px;
+}
+
 
 .page{
-    background-color:#D9D9D9 ;
+    background-color:#DBFFAE ;
     width: 100%;
     height: 60px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    width: 60%;
     align-items: center;
     justify-content: space-around;
 }
@@ -61,9 +83,23 @@ header .logo-img{
     font-weight: 500;
     color: #000;
     font-family: 'Poppins', sans-serif;
-    transition: 0.5s;
+    transition: 0.3s;
+    
 }
 
 .page a:hover{
     color: #fff;
+}
+
+.acessorios, .calca, .camisa, .vestidos, .calcados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.funcionamento p{
+    font-family: 'Poppins';
+    font-size: 14px;
 }
