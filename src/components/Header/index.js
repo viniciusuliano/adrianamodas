@@ -12,7 +12,7 @@ import iconWatch from './src/watch.svg'
 import iconInstagram from './src/instagram.svg'
 function Header(){
     return(
-    <div>
+    <div className="component">
         <header>
             <div className="logo">
                 <img className="logo-img" src={Logo} alt="logo loja"></img>
