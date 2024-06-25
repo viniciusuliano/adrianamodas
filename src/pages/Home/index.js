@@ -1,13 +1,16 @@
 import './home.css'
 import { Swiper, SwiperSlide, autoplay} from 'swiper/react';
+import { useState, useEffect } from 'react';
 import Image1 from './src/imagem1.jpg'
 import Image2 from './src/imagem2.jpg'
 import Image3 from './src/imagem3.jpg'
 import Image4 from './src/imagem4.jpg'
 import Image5 from './src/imagem5.jpg'
+import { set } from 'firebase/database';
 
 
 function Home(){
+    const [slidePreview, setSlide] = useState(3)
     const data = [
         {id: '1', image: Image1},
         {id: '2', image: Image2 },
@@ -17,10 +20,29 @@ function Home(){
 
     ]
 
+    useEffect(()=>{
+        function handleResize(){
+            if(window.innerWidth <= 700){
+                setSlide(1);
+            
+            }
+            else{
+                setSlide(3)
+            }
+        }
+        handleResize()
+
+        window.addEventListener("resize", handleResize)
+
+        return()=>{
+            window.removeEventListener("resize", handleResize)
+        }
+    }, [])
+
     return(
         <section>
             <div className='conteudo'>
-                 <Swiper slidesPerView={3}
+                 <Swiper slidesPerView={slidePreview}
                 direction='horizontal'
                 loop = 'true'
                 autoplay = {{

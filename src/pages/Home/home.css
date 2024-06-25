@@ -45,4 +45,8 @@ body{
     .location h1, p{
         margin-left: 20px;
     }
+
+    .slide-item{
+        height: 300px;
+    }
 }
