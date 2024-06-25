@@ -6,7 +6,6 @@ import Image2 from './src/imagem2.jpg'
 import Image3 from './src/imagem3.jpg'
 import Image4 from './src/imagem4.jpg'
 import Image5 from './src/imagem5.jpg'
-import { set } from 'firebase/database';
 
 
 function Home(){
