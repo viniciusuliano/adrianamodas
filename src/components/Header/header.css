@@ -46,7 +46,6 @@ header .logo-img{
     display: flex;
     align-items: center;
     margin-right: 20px;
-    justify-content: center;
     gap: 30px;
 }
 
@@ -110,3 +109,24 @@ header .logo-img{
     font-family: 'Poppins';
     font-size: 14px;
 }
+
+@media (max-width: 1050px){
+    .page{
+        display: none;
+    }
+    .rotas{
+        display: none;
+    }
+    .logo{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 1000px ){
+    .logo{
+        align-items: center;
+        justify-content: center;
+    }
+}
+

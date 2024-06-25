@@ -1,6 +1,7 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 import Header from './components/Header'
+import Footer from './components/Footer'
 import Home from './pages/Home'
 import Acessorios from './pages/Acessorios'
 import Calcados from './pages/Calçados'
@@ -21,6 +22,7 @@ function RoutesApp(){
                 <Route path='/vestidos' element={<Vestidos/>}/>
                 <Route path='*' element={<Erro/>}/>
             </Routes>
+        <Footer/>
         </BrowserRouter>
     )
 }

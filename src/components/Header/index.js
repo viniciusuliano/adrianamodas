@@ -8,7 +8,6 @@ import iconCalca from './src/calca.svg'
 import iconCamisa from './src/camisa.svg'
 import iconVestidos from './src/vestidos.svg'
 import iconCalcados from './src/calcados.svg'
-import iconWatch from './src/watch.svg'
 import iconInstagram from './src/instagram.svg'
 function Header(){
     return(
@@ -22,7 +21,6 @@ function Header(){
             <Link to={'/'}><img className="icone-home" src={HomeLogo} alt="Link home"></img></Link>
             <Link target="blank" to={'https://wa.me/5547984839562?text=Ol%C3%A1%2C+tudo+bem.+Gostaria+de+atendimento%21'}><img src={Whatsapp} alt="Icone Whatsapp"></img></Link>
             <Link target="blank" to={'https://www.instagram.com/_modas_adriana?igsh=ZXJvemt1aG5xM2F0'}><img className="iconinstagram" src={iconInstagram} alt="icone instagram"></img></Link>
-            <img className="icon-watch" src={iconWatch} alt="icone-relogio"></img>
             <div className="funcionamento">
             <p>SEG-SEX: 9:00-19:00</p>
             <p>SAB: 9:00-13:00</p>
