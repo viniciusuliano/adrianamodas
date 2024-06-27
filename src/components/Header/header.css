@@ -120,13 +120,10 @@ header .logo-img{
     .logo{
         width: 100%;
         margin: 0;
-    }
-}
-
-@media (max-width: 1000px ){
-    .logo{
+        background-color: #DBFFAE;
         align-items: center;
         justify-content: center;
     }
 }
+
 

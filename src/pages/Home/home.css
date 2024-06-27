@@ -36,6 +36,8 @@ body{
 }
 
 
+
+
 @media(max-width: 920px){
     .maps{
         width: 100%;
@@ -48,5 +50,10 @@ body{
 
     .slide-item{
         height: 300px;
+    }
+
+    iframe{
+        height: 300px;
+        padding: 10px;
     }
 }

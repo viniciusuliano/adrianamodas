@@ -63,7 +63,7 @@ function Home(){
         <div className='location'>
             <h1>A Adriana Modas trabalha com diversos modelos e tamanhos de roupa!</h1>
             <p>Venha conhecer a nossa loja na Rua Bento Torquato da Rocha, 622 - Vila Nova</p>
-            <iframe className='maps'  title='Google Maps' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3577.032097143611!2d-48.902933088165646!3d-26.293059467504545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dea5362888a071%3A0xe7bde94ef7de9732!2sAdriana%20Modas!5e0!3m2!1spt-BR!2sbr!4v1719244389018!5m2!1spt-BR!2sbr" width="800" height="600"  style={{ border: 0, borderRadius: '15px' }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe className='maps'  title='Google Maps' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3577.032097143611!2d-48.902933088165646!3d-26.293059467504545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dea5362888a071%3A0xe7bde94ef7de9732!2sAdriana%20Modas!5e0!3m2!1spt-BR!2sbr!4v1719244389018!5m2!1spt-BR!2sbr" width="700" height="600"  style={{ border: 0, borderRadius: '15px' }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         </section>
 
